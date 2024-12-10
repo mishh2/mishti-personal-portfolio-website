@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Personal Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(70deg, #18f2bf, #eb2b84);
+            color: white;
+            padding-top: 50px;
+        }
+
+        .container {
+            max-width: 750px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        .form-control {
+            background-color: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .form-control::placeholder {
+            color: #f1f1f1;
+        }
+
+        .btn {
+            background-color: #FF79C6;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+
+        .btn:hover {
+            background-color: #F06595;
+            border: none;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .footer a {
+            color: #FF79C6;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #F06595;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Contact Me <3</h1>
+
+        <div class="card">
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Your message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 Mishti | <a href="https://www.yourwebsite.com">Personal Portfolio Website</a></p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
